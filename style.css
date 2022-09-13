@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #23252C;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main {
+    width: 400px;
+    background-color: #1A1B21;
+    border-radius: 10px;
+}
+
+.profile-el {
+    background-image: url("https://images.unsplash.com/photo-1565990315145-9b2f389b0927?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+    background-position: center center;
+    background-size: cover;
+    height: 317px;
+    border-radius: 10px 10px 0 0;
+}
+
+.name,
+.header,
+.email {
+    color: #F5F5F5;
+}
+
+.info-el {
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+
+.name,
+.title {
+    margin: 0 0 5px;
+}
+
+.title {
+    color: #F3BF99;
+}
+
+.btn {
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.about-el {
+    padding: 0 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #BDBDBD
+}
+
+.about-el p {
+    margin-top: 0
+}
+
+.about-el h3 {
+    margin: 25px 0 5px
+}
+
+.social-el {
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-el {
+    display: block;
+    margin: 0 10px;
+}
